@@ -53,10 +53,16 @@ wordpressディレクトリで以下のコマンド実行するとMySQL、WordPr
 docker-compose up -d
 ```
 
-上記コンテナを終了する場合は以下のコマンドを実行する。
+上記コンテナを終了してすべても消去する場合は以下のコマンドを実行する。
 
 ```
 docker-compose down --volumes
+```
+
+終了するだけなら以下のコマンドを実行する。
+
+```
+docker-compose stop
 ```
 
 注） 実行環境はUbuntu 22.04LTS
